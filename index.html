@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-md">
+        <h1 class="text-3xl font-bold text-center mb-8 text-blue-600">Task Manager</h1>
+        
+       
+        <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+            <form id="taskForm" class="flex">
+                <input 
+                    type="text" 
+                    id="taskInput" 
+                    placeholder="Add a new task..." 
+                    class="flex-grow px-4 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    required
+                >
+                <button 
+                    type="submit" 
+                    class="bg-blue-500 text-white px-4 py-2 rounded-r-lg hover:bg-blue-600 transition"
+                >
+                    Add
+                </button>
+            </form>
+        </div>
+        
+       
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h2 class="text-xl font-semibold mb-4 text-gray-700">Your Tasks</h2>
+            <ul id="taskList" class="space-y-3">
+             
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
