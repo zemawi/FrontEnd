@@ -44,6 +44,6 @@ project/
 
 ##  Screenshot
 
-![Simple Task Manager](/FrontEnd_Kuraz\FrontEnd\public\assets\image.png)
+![Simple Task Manager](/public/assets/image.png)
 
 
